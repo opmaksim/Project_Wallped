@@ -38,7 +38,9 @@
 - 수신된 센서 값들을 그래프로 표시
 - 센서 값은 메시지 탭에서 확인 가능
 
-# 여기 라파이 그래프 사진 넣기
+![alt text](img/그래프센서.png)
+![alt text](img/메시지센서.jpg)
+**센서 값들이 그래프를 그리고, 메시지 탭에서 상세 값을 확인할 수 있다.**
 
 ### 3. 다양한 월패드 기능
 - 시간 동기화를 통하여 실시간 시간 확인 가능
@@ -46,8 +48,14 @@
 - 설치된 웹캠을 통하여 현관문 보기 가능
 - 제어 화면에서 STM32F11RE에 부착된 LED 제어 가능
 
-# 여기 월패드 사진들 넣기
+![alt text](img/시간.png)
+**시간 동기화를 통하여 실시간 시간을 표시**
 
+![alt text](img/홈화면보기.png)
+**영상보기를 통하여 실시간 웹캠 감시 가능**
+
+![alt text](img/LED원격제어.png)
+**LED 버튼을 통하여 STM32에 있는 LED 원격제어 가능**
 ## 소스 코드
 
 ### [STM32F411RE](/STM32/)
@@ -55,14 +63,12 @@
 
 ## 시연 영상
 
-### [조도,온도,습도 감지]()
+### [조도,온도,습도 감지 및 UI 표시](https://drive.google.com/file/d/1AfVthQ8w9mkt3LPMiPSHWGNzdsV-a7D4/view?usp=sharing)
 
-### [실시간 전송 및 UI 표시]()
+### [실시간 시간 표시](https://drive.google.com/file/d/1TVUW97ZFnsKz3jvqQJSvyZzSWWjPDnSb/view?usp=sharing)
 
-### [실시간 시간 표시]()
+### [키패드를 통하여 메시지 수신](https://drive.google.com/file/d/1oHRbAzyli-6_JeqzuV2cmKul2beWf8BZ/view?usp=sharing)
 
-### [키패드를 통하여 메시지 수신]()
+### [현관문 보기](https://drive.google.com/file/d/1G9z46wqBTT7ZMf9RAAS05ESFlK-0gYcn/view?usp=sharing)
 
-### [현관문 보기]()
-
-### [LED 제어]()
+### [LED 제어](https://drive.google.com/file/d/1G_lkWniTCsucssTRn1Pm5442s7pYCX4v/view?usp=sharing)
