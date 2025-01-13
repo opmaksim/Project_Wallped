@@ -183,7 +183,7 @@ int main(void)
       cdsValue = HAL_ADC_GetValue(&hadc1);
     }
     HAL_ADC_Stop(&hadc1);
-    cdsValue = (uint16_t)(((double)(cdsValue) / 4000) * 100);
+    cdsValue = (uint16_t)(((double)(cdsValue) / 4095) * 100);
     dhtValue = DHT11_ReadData();
     outputFlag = 1;
     dhtFlag = 0;
