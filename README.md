@@ -67,12 +67,22 @@
 
 ## 시연 영상
 
-### [조도,온도,습도 감지 및 UI 표시](https://drive.google.com/file/d/1AfVthQ8w9mkt3LPMiPSHWGNzdsV-a7D4/view?usp=sharing)
+### [조도,온도,습도 감지 및 UI 표시](https://drive.google.com/file/d/1gCWeGIDDWATdt3Xk5l3WrlzrLc3Rgkkl/view?usp=sharing)
+
+![alt text](video/센서값감지및UI표시.gif)
 
 ### [실시간 시간 표시](https://drive.google.com/file/d/1TVUW97ZFnsKz3jvqQJSvyZzSWWjPDnSb/view?usp=sharing)
 
+![alt text](video/실시간시간표시.gif)
+
 ### [키패드를 통하여 메시지 수신](https://drive.google.com/file/d/1oHRbAzyli-6_JeqzuV2cmKul2beWf8BZ/view?usp=sharing)
+
+![alt text](video/키패드메시지전송.gif)
 
 ### [현관문 보기](https://drive.google.com/file/d/1G9z46wqBTT7ZMf9RAAS05ESFlK-0gYcn/view?usp=sharing)
 
+![alt text](video/홈화면보기.gif)
+
 ### [LED 제어](https://drive.google.com/file/d/1G_lkWniTCsucssTRn1Pm5442s7pYCX4v/view?usp=sharing)
+
+![alt text](video/LED원격제어.gif)

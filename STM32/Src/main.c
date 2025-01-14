@@ -190,9 +190,9 @@ int main(void)
   }
   if(outputFlag)
 	{
-		printf("cds : %4d, humi: %d.%d temp : %d.%d \r\n", cdsValue, dhtValue.humiData_Int, dhtValue.humiData_Double, dhtValue.tempData_Int, dhtValue.tempData_Double);
+		printf("cds : %4d, humi: %d.%d temp : %d.%d \r\n", cdsValue, , dhtValue.tempData_Int, dhtValue.tempData_Double, dhtValue.humiData_Int, dhtValue.humiData_Double);
 		outputFlag = 0;
-		sprintf(sendBuf, "[%s]%d@%d.%d@%d.%d", LOGID, cdsValue, dhtValue.humiData_Int, dhtValue.humiData_Double, dhtValue.tempData_Int, dhtValue.tempData_Double);
+		sprintf(sendBuf, "[%s]%d@%d.%d@%d.%d", LOGID, cdsValue, , dhtValue.tempData_Int, dhtValue.tempData_Double, dhtValue.humiData_Int, dhtValue.humiData_Double);
 		esp_send_data(sendBuf);
 		printf("%s\r\n", sendBuf);	//Debug
 		memset(sendBuf, 0x0, sizeof(sendBuf));
